@@ -1,0 +1,8 @@
+<?php 
+
+/*
+$sql=mysql_connect('127.0.0.1','***','***')连接数据库，填写你的数据库账号和密码
+mysql_select_db('tieba',$sql);  选择tieba数据库，设置为活动的
+mysql_query("set names 'utf8'");///设置编码格式为utf8
+*/
+?>
