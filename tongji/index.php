@@ -20,14 +20,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="http://beibeijie.sinaapp.com/tieba/index.php">正能量</a>
+      <a class="navbar-brand" href="../tieba/index.php">正能量</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="http://beibeijie.sinaapp.com/tieba/index.php">博客 <span class="sr-only">(current)</span></a></li>
-        <li><a href="http://beibeijie.sinaapp.com/tongji/index.php">统计</a></li>
+        <li class="active"><a href="../tieba/index.php">博客 <span class="sr-only">(current)</span></a></li>
+        <li><a href="../tongji/index.php">统计</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> 教程<span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -65,7 +65,7 @@
     
     
 <?php
-include('conn.php');
+include('../conn.php');
 $sql1 = "select sum(blue) as blue from tongji";
 $req1 = mysql_query($sql1);
 $row1 = mysql_fetch_array($req1);

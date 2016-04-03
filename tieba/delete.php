@@ -1,6 +1,6 @@
 <?php
 header("Content-type: text/html; charset=utf-8");
-include('conn.php');
+include('../conn.php');
 $id=$_GET['id'];
 $id+0;//转换数据类型
 $sql='delete from tieba where id='.$id;

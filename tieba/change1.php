@@ -1,6 +1,6 @@
 <?php
 header("Content-type: text/html; charset=utf-8");
-include('conn.php');
+include('../conn.php');
 $submit =$_POST['submit'];
 $title = $_POST['title'];
 $neirong=$_POST['neirong'];

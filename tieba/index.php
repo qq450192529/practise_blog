@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!— 可选的Bootstrap主题文件（一般不用引入） —>
     <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"> 
-    <title>我的博客</title>
+    <title>我的贴吧</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
@@ -19,14 +19,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="http://beibeijie.sinaapp.com/tieba/index.php">正能量</a>
+      <a class="navbar-brand" href="../tieba/index.php">正能量</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-          <li class="active"><a href="http://beibeijie.sinaapp.com/tieba/index.php">博客 <span class="sr-only">(current)</span></a></li>
-          <li><a href="http://beibeijie.sinaapp.com/tongji/index.php" >统计</a></li>
+          <li class="active"><a href="../tieba/index.php">贴吧 <span class="sr-only">(current)</span></a></li>
+          <li><a href="../tongji/index.php" >统计</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> 教程<span class="caret"></span></a>
           <ul class="dropdown-menu">
@@ -70,7 +70,7 @@
 
     
 <?php 
- include('conn.php');//加入conn.php的内容
+ include('../conn.php');//加入conn.php的内容
  $sql='select * from tieba order by `id` desc';
 //查询语句
 $sqll=mysql_query($sql);///执行sql语句，将查询到的数据放到$sqll中
