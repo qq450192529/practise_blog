@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>	
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+</head>
+<body>
+<div class="login-form">
+	<div class="close"> </div>
+		<div class="head-info">
+			<label class="lbl-1"> </label>
+			<label class="lbl-2"> </label>
+			<label class="lbl-3"> </label>
+		</div>
+
+		<div class="clear"> </div>
+
+		<div class="avtar">
+		<img src="images/avtar.png" />
+		</div>	
+	
+		<form action="zhuce.php" method="post">
+			<input type="text" name="user" class="text" value="请输入新的用户名" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '输入新的用户名';}" >
+			<div class="key">
+				<input type="password" name="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}">
+			</div>
+
+				<div class="signin">
+					<table>
+					<input type="submit" value="注册" name="submit"  style="  width: 100%" >
+					</table>
+				</div>
+		</form>
+	</div>
+
+			
+	
+</div>
+</body>
+</html>
